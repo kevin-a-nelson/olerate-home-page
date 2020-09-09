@@ -12,8 +12,8 @@ body html {
     text-align: center;
     margin-top: 25px;
     /* height: 900px; */
-    padding: 10px;
-    padding-bottom: 30px;
+    /* padding: 10px; */
+    /* padding-bottom: 30px; */
 }
 
 .logos {
@@ -27,7 +27,7 @@ body html {
     display: block;
     margin: 0px auto;
     max-width: 500px;
-    padding: 0px;
+    padding: 0 10px;
     line-height: 30px;
 }
 
@@ -83,8 +83,8 @@ body html {
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding-top: 56.25%;
-    /* 16:9 Aspect Ratio */
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin-bottom: 30px;
 }
 
 .responsive-iframe {
@@ -100,6 +100,20 @@ body html {
 
 .flex {
     display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+    .responsive-iframe {
+        margin: 0px auto;
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .responsive-iframe-container {
+        margin: 0 auto 10px auto;
+    }
 }
 
 @media only screen and (max-width: 380px) {
