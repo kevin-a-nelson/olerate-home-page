@@ -42,14 +42,14 @@ function App() {
 
             {/* <p className="title">Olerate</p> */}
             <p className="sub-title">
-                Click on a Professor on{" "}
+                Click on a professor on{" "}
                 <a
                     href="https://sis.stolaf.edu/sis/public-aclasslab.cfm"
                     target="_blank"
                 >
-                    Class & Lab Schedule
+                    class & lab schedule
                 </a>
-                &nbsp;and get redirected to their Rate my Professor Page
+                &nbsp;and get redirected to their rate my professor page
             </p>
             <a
                 className="download-btn"
